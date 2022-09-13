@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import Founder from './Founder'
 import Menu from './Menu'
+import Footer from '../layout/Footer'
 
 const home = () => {
   const options = {
@@ -32,6 +33,7 @@ const home = () => {
     </section>
     <Founder/>
     <Menu/>
+    <Footer/>
 
     </>
   )
